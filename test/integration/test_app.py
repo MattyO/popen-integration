@@ -1,11 +1,12 @@
 import unittest
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import requests
-from subprocess import Popen, PIPE, DEVNULL
 import time
 import signal
 import os
+from subprocess import Popen, PIPE, DEVNULL
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import requests
 
 
 class AppPageTest(unittest.TestCase):
